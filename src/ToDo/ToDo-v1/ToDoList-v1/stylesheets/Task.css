@@ -1,0 +1,21 @@
+.tv1-task-container {
+    border-bottom: solid black 3px;
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    padding: 1.4vh 1vh;
+
+
+}
+
+.tv1-task-name {
+    word-wrap: break-word;
+    width: 80%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.tv1-task-button {
+    background-color: transparent;
+    border: none;
+}

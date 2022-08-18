@@ -1,0 +1,7 @@
+.tv3-task-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+
+}

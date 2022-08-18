@@ -1,0 +1,21 @@
+.tv1-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.tv1-input,
+.tv1-button {
+  padding: 1vh;
+  border-radius: 10px;
+  margin-left: 2vh;
+
+}
+
+.tv1-input {
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 70%;
+}

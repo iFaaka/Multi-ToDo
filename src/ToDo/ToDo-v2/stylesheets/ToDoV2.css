@@ -1,0 +1,24 @@
+.tv2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #6609B3;
+    color: white;
+    min-height: 50vh;
+    max-height: 80vh;
+    width: 25vw;
+    border-radius: 30px;
+    text-align: center;
+    overflow: auto;
+
+}
+
+.tv2-length-task {
+    margin-bottom: 2vh;
+}
+
+.tv2-title {
+    font-weight: bold;
+    font-size: 3vh;
+
+}

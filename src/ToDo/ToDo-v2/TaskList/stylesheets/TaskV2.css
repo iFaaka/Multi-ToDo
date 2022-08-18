@@ -1,0 +1,32 @@
+.complete-task {
+    background-color: grey;
+}
+
+.tv2-task-name {
+    word-wrap: break-word;
+    width: 80%;
+
+}
+
+.tv2-task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*     background-color: #9619FF; */
+    border: solid grey 2px;
+    text-transform: capitalize;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 2vh;
+    margin-top: 0.5vh;
+    padding: 1vh 1.5vh;
+    text-align: left;
+
+
+}
+
+.tv2-task-button {
+    padding: 0.5vh;
+    border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.tv3-task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    cursor: pointer;
+    font-size: 2vh;
+    text-align: left;
+
+}
+
+.tv3-task-name {
+    width: 90%;
+    word-wrap: break-word;
+}
+
+.ico {
+
+    height: 3vh;
+}
