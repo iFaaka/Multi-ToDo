@@ -31,8 +31,8 @@ export const ToDoV3 = () => {
   }, [taskList]);
 
   return (
-    <div className="tv3-container">
-      <div className="tv3-todo-container border rounded bg-light">
+    <div className="todo-container tv3-container">
+      <div className="todo tv3-todo-container border rounded bg-light">
         <div className="tv3-content-container">
           <span className="tv3-title">Lista de tareas v3</span>
           <FormV3 onSubmit={setTaskList} />
@@ -50,11 +50,13 @@ export const ToDoV3 = () => {
         </div>
       </div>
       <div>
-        <code className="code-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem accusamus, animi eaque molestiae optio aliquid. Ullam, explicabo dolor, ipsum magni sed, itaque voluptate harum totam iste nemo eum dolores omnis.
-          </code>
+        <p className="code-description">
+          La tercer version de nuestros To-Do esta hecha con Bootstrap para
+          facilitar su diseño y trabaja con el LocalStorage para que las tareas
+          queden guardadas en tu navegador, ademas de un super util boton para
+          eliminar todas las tareas
+        </p>
       </div>
     </div>
-
   );
 };

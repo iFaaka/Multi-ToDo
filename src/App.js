@@ -13,8 +13,10 @@ function App() {
       <code className="title-code">
         ¡Bienvenido a mi pagina de listas! Para facilitar tu recorrido por como
         me fui capacitando, re-hice todos los ToDo que me fueron ayudando a
-        perfeccionar mis habilidades en React y los uni en una sola pagina Si
-        queres ver como esta hecho este proyecto podes encontrarlo en su{" "}
+        perfeccionar mis habilidades en React y los uni en una sola pagina.
+        <br />
+        <br />
+        Si queres ver como esta hecho este proyecto podes encontrarlo en su{" "}
         <a href="#" target="_blank">
           Github
         </a>

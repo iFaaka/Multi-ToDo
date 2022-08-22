@@ -1,9 +1,3 @@
-.tv1-header {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 3vh;
-}
-
 .todo-v1-container {
     display: flex;
     flex-direction: column;
@@ -12,12 +6,7 @@
     font-family: sans-serif;
     color: #423e4d;
     background-color: #ffcf01;
-    min-height: 50vh;
-    max-height: 80vh;
-    width: 25vw;
-    border-radius: 30px;
-    overflow: auto;
-    padding: 3vh 0;
+
 
 
 }
@@ -25,21 +14,32 @@
 .tv1-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
-.code-description {
-    color: white
+    width: 25vw;
+
 }
 
-@media (max-width: 425px){
-    .todo-v1-container{
+.tv1-header {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+
+
+@media (max-width: 425px) {
+
+    .tv1-container {
+        width: 100vw;
+        align-items: center;
+    }
+
+    .todo-v1-container {
         width: 70vw;
         padding: 3vh;
     }
-    .code-description {
-        padding: 2vw;
-    
+
+    .tv1-header {
+        font-size: 2vh;
     }
+
 }

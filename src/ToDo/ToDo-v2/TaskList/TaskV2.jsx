@@ -11,7 +11,7 @@ export const TaskV2 = ({ name, id, onDelete, onComplete, complete }) => {
     >
       <span className="tv2-task-name">{name}</span>
       <button className="tv2-task-button" onClick={(e) => onDelete(e, id)}>
-        Eliminar
+        X
       </button>
     </div>
   );

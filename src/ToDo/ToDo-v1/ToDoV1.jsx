@@ -7,11 +7,13 @@ export const ToDoV1 = () => {
   const [itemList, setItemList] = useState([]);
 
   return (
-    <div className="tv1-container">
-      <div className="todo-v1-container">
-        <p className="tv1-header">Lista de tareas v1</p>
+    <div className="todo-container tv1-container">
+      <div className="todo todo-v1-container">
+        <div>
+          <p className="tv1-header">Lista de tareas v1</p>
 
-        <Form onSubmit={setItemList} />
+          <Form onSubmit={setItemList} />
+        </div>
 
         <div>
           <TaskList setItemList={setItemList} itemList={itemList} />

@@ -19,3 +19,21 @@
   font-family: sans-serif;
   width: 70%;
 }
+
+@media (max-width: 425px) {
+
+  .tv1-input,
+  .tv1-button {
+    font-size: 2vh;
+    margin-right: 0.5vh;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .tv1-input,
+  .tv1-button {
+    font-size: 1.5vh;
+    margin: 0;
+  }
+}

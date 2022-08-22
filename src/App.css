@@ -1,11 +1,26 @@
 body {
     background-color: #222;
-}.App {
+}
+
+.App {
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 100vh;
 
+}
+
+.todo {
+    min-height: 50vh;
+    max-height: 80vh;
+    width: 25vw;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    padding: 3vh;
+    text-align: center;
 }
 
 
@@ -18,11 +33,8 @@ body {
 
 .list-section {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     gap: 4vh;
-    margin-top: 4vh;
-    
+
 }
 
 .title-code {
@@ -30,16 +42,42 @@ body {
     padding: 2vh;
     font-size: 2vh;
     margin: 3vh 10vw;
+    text-align: center;
+}
+
+.code-description {
+
+    text-align: center;
+    margin-top: 2vh;
+    color: white;
 }
 
 
-@media (max-width: 430px) {
+
+@media (max-width: 770px) {
     .list-section {
         flex-direction: column;
-        
         justify-content: center;
         align-items: center;
         gap: 0;
         margin: 0;
     }
+
+    .code-description {
+        padding: 2vw;
+        text-align: center;
+        margin-top: 2vh;
+        width: 80vw;
+    }
+
+    .todo-container {
+        width: 50vw;
+        align-items: center;
+    }
+
+    .todo {
+        width: 50vw;
+
+    }
+
 }

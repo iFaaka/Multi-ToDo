@@ -1,21 +1,15 @@
 .tv2-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
+    width: 25vw;
 }
+
 .todo-tv2-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background-color: #6609B3;
     color: white;
-    min-height: 50vh;
-    max-height: 80vh;
-    width: 25vw;
-    border-radius: 30px;
-    text-align: center;
-    overflow: auto;
+
 
 }
 
@@ -30,13 +24,21 @@
 }
 
 
-@media (max-width: 425px){
-    .todo-tv2-container{
+@media (max-width: 425px) {
+
+
+    .tv2-container {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .todo-tv2-container {
         width: 70vw;
         padding: 3vh;
     }
-    .code-description {
-        padding: 2vw;
-    
+
+    .tv2-title {
+        font-size: 2vh;
     }
+
 }

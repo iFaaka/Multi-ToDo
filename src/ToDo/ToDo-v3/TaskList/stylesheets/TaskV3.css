@@ -18,3 +18,9 @@
 
     height: 3vh;
 }
+
+@media (max-width:425px) {
+    .tv3-task-container {
+        margin-bottom: 5vh;
+    }
+}
