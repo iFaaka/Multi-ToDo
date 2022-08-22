@@ -54,7 +54,7 @@ body {
 
 
 
-@media (max-width: 770px) {
+@media (max-width: 1080px) {
     .list-section {
         flex-direction: column;
         justify-content: center;
