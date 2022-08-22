@@ -8,6 +8,7 @@ export const ToDoV2 = () => {
 
   return (
     <div className="tv2-container">
+    <div className="todo-tv2-container">
       <div>
         <span className="tv2-title">Lista de tareas v2</span>
         <FormV2 onSubmit={setTaskList} />
@@ -16,6 +17,15 @@ export const ToDoV2 = () => {
       <div className="tv2-length-task">
         <span>Cantidad de tareas registradas: {taskList.length}</span>
       </div>
+
     </div>
+          <div>
+          <code className="code-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ipsa eum pariatur! Quo, voluptas voluptate. Nihil, rem aliquam. Sequi corporis voluptatem tempore sapiente maiores quisquam ipsam quod eum, obcaecati rem?
+          </code>
+        </div>
+    </div>
+
+
   );
 };

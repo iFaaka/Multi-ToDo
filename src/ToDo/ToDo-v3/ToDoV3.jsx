@@ -19,7 +19,7 @@ export const ToDoV3 = () => {
 
   useEffect(() => {
     const data = localStorage.getItem("tasks");
-    if (data == undefined) {
+    if (data === undefined) {
       localStorage.setItem("tasks", JSON.stringify(taskList));
     } else {
       setTaskList(JSON.parse(data));
@@ -31,22 +31,30 @@ export const ToDoV3 = () => {
   }, [taskList]);
 
   return (
-    <div className="tv3-container border rounded bg-light">
-      <div className="tv3-content-container">
-        <span className="tv3-title">Lista de tareas v3</span>
-        <FormV3 onSubmit={setTaskList} />
-        <TaskListV3 setTaskList={setTaskList} taskList={taskList} />
-      </div>
+    <div className="tv3-container">
+      <div className="tv3-todo-container border rounded bg-light">
+        <div className="tv3-content-container">
+          <span className="tv3-title">Lista de tareas v3</span>
+          <FormV3 onSubmit={setTaskList} />
+          <TaskListV3 setTaskList={setTaskList} taskList={taskList} />
+        </div>
 
+        <div>
+          <span>Cantidad de tareas registradas: {taskList.length}</span>
+          <button
+            onClick={() => setTaskList([])}
+            className="btn btn-danger mb-3 mt-1"
+          >
+            Eliminar todas las tareas
+          </button>
+        </div>
+      </div>
       <div>
-        <span>Cantidad de tareas registradas: {taskList.length}</span>
-        <button
-          onClick={() => setTaskList([])}
-          className="btn btn-danger mb-3 mt-1"
-        >
-          Eliminar todas las tareas
-        </button>
+        <code className="code-description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem accusamus, animi eaque molestiae optio aliquid. Ullam, explicabo dolor, ipsum magni sed, itaque voluptate harum totam iste nemo eum dolores omnis.
+          </code>
       </div>
     </div>
+
   );
 };

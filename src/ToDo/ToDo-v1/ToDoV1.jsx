@@ -7,7 +7,7 @@ export const ToDoV1 = () => {
   const [itemList, setItemList] = useState([]);
 
   return (
-    <div>
+    <div className="tv1-container">
       <div className="todo-v1-container">
         <p className="tv1-header">Lista de tareas v1</p>
 

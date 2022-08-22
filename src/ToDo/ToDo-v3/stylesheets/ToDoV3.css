@@ -18,3 +18,15 @@
 .tv3-content-container {
     overflow: auto;
 }
+
+@media (max-width: 425px){
+    .tv3-container{
+        width: 70vw;
+        padding: 3vh;
+    }
+    
+    .code-description {
+        padding: 2vw;
+    
+    }
+}

@@ -1,6 +1,12 @@
 .tv2-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo-tv2-container {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     background-color: #6609B3;
     color: white;
@@ -21,4 +27,16 @@
     font-weight: bold;
     font-size: 3vh;
 
+}
+
+
+@media (max-width: 425px){
+    .todo-tv2-container{
+        width: 70vw;
+        padding: 3vh;
+    }
+    .code-description {
+        padding: 2vw;
+    
+    }
 }
